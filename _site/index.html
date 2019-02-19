@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="I'm currently a Cyber Defense Technician working in the public sector. I do a little bit of everything when it comes to technology so I won't bore you with a laundry list. Email, call, tweet, or text me with your questions and feedback. I'm also on most social networking sites as either 'CipherScruples', 'jason.l.adsit', 'jasonadsit', or 'jadsit'. I'd love to hear from you, who ever you are. Stay geeky." />
-    <meta name="keywords" content="Jason Adsit, CipherScruples, Hacking, Security, Administration, Consultation, Knowledge Sharing, UNIX, Linux, BSD, DCO-IDM, Cyber, OCEO, DCEO, DCOE, Q2lwaGVyU2NydXBsZXM=, 9cf0980348ae725a2aa035f721d1704851a80938d70e1f260ddf1c00d735d1ae" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <title>CipherScruples</title>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="description" content="I'm currently a Cybersecurity Assessor working in the public sector. Feel free to contact me. I'm on most of the usual networks as CipherScruples. Stay geeky." />
+<meta name="keywords" content="Jason Adsit, CipherScruples, Hacking, Security, Administration, Consultation, Knowledge Sharing, UNIX, Linux, BSD, DCO-IDM, Cyber, OCEO, DCEO, DCOE, Q2lwaGVyU2NydXBsZXM=, 9cf0980348ae725a2aa035f721d1704851a80938d70e1f260ddf1c00d735d1ae, 0000-0002-0030-5301" />
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+<title>CipherScruples</title>
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
   "@type" : "Person",
   "name" : "Jason Adsit",
-  "url" : "http://cipher.sexy",
+  "url" : "https://jasonadsit.github.io",
   "sameAs" : [
     "https://github.com/jasonadsit",
     "https://twitter.com/CipherScruples",
@@ -34,71 +31,402 @@
 }
 </script>
 <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "http://cipher.sexy",
-      "logo": "http://cipher.sexy/images/CipherScruples.png"
-    }
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://jasonadsit.github.io",
+    "logo": "https://jasonadsit.github.io/images/CipherScruples.png"
+}
 </script>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+/* General & 'Reset' Stuff */
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px;
+}
+
+li {
+  line-height: 1.4 ;
+}
+
+/* Header, <header>
+   header   - container
+   h1       - project name
+   h2       - project description
+*/
+
+header {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-bottom: 1px dashed #b5e853;
+  padding: 20px 0;
+  margin: 0 0 40px 0;
+}
+
+header h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 0 0 -40px;
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header h1:before {
+  content: "./ ";
+  font-size: 24px;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+}
+
+#downloads .btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+/* Main Content
+*/
+
+#main_content {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+section img {
+  max-width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+#main_content h1 {
+  font-size: 30px;
+}
+
+#main_content h2 {
+  font-size: 24px;
+}
+
+#main_content h3 {
+  font-size: 18px;
+}
+
+#main_content h4 {
+  font-size: 14px;
+}
+
+#main_content h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+}
+
+#main_content h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0 0 5px 0;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li:before {
+  content: ">>";
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 13px;
+  color: #b5e853;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
+}
+
+blockquote {
+  color: #aaa;
+  padding-left: 10px;
+  border-left: 1px dotted #666;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 14px;
+  color: #b5e853;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px dashed #b5e853;
+  padding: 5px 10px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px dashed #b5e853;
+  color: #b5e853;
+}
+
+/* Buttons
+*/
+
+.btn {
+  display: inline-block;
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover {
+  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+}
+
+.btn .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 1px 8px 0 0;
+  float: left;
+}
+
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/Twitter_logo_white_16.png") 0 0 no-repeat;
+}
+
+.btn-facebook .icon {
+  opacity: 0.6;
+  background: url("../images/FB-f-Logo__white_16.png") 0 0 no-repeat;
+}
+
+/* Links
+   a, a:hover, a:visited
+*/
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+/* Clearfix */
+
+.cf:before, .cf:after {
+  content:"";
+  display:table;
+}
+
+.cf:after {
+  clear:both;
+}
+
+.cf {
+  zoom:1;
+}
+
+.pl-c /* comment */ {
+  color: #969896;
+}
+
+.pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
+.pl-s .pl-v /* string variable */ {
+  color: #0099cd;
+}
+
+.pl-e  /* entity */,
+.pl-en /* entity.name */ {
+  color: #9774cb;
+}
+
+.pl-s .pl-s1 /* string source */,
+.pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
+  color: #ddd;
+}
+
+.pl-ent /* entity.name.tag */ {
+  color: #7bcc72;
+}
+
+.pl-k /* keyword, storage, storage.type */ {
+  color: #cc2372;
+}
+
+.pl-pds              /* punctuation.definition.string, string.regexp.character-class */,
+.pl-s                /* string */,
+.pl-s .pl-pse .pl-s1 /* string punctuation.section.embedded source */,
+.pl-sr               /* string.regexp */,
+.pl-sr .pl-cce       /* string.regexp constant.character.escape */,
+.pl-sr .pl-sra       /* string.regexp string.regexp.arbitrary-repitition */,
+.pl-sr .pl-sre       /* string.regexp source.ruby.embedded */ {
+  color: #3c66e2;
+}
+
+.pl-v /* variable */ {
+  color: #fb8764;
+}
+
+.pl-id /* invalid.deprecated */ {
+  color: #e63525;
+}
+
+.pl-ii /* invalid.illegal */ {
+  background-color: #e63525;
+  color: #f8f8f8;
+}
+
+.pl-sr .pl-cce /* string.regexp constant.character.escape */ {
+  color: #7bcc72;
+  font-weight: bold;
+}
+
+.pl-ml /* markup.list */ {
+  color: #c26b2b;
+}
+
+.pl-mh        /* markup.heading */,
+.pl-mh .pl-en /* markup.heading entity.name */,
+.pl-ms        /* meta.separator */ {
+  color: #264ec5;
+  font-weight: bold;
+}
+
+.pl-mq /* markup.quote */ {
+  color: #00acac;
+}
+
+.pl-mi /* markup.italic */ {
+  color: #ddd;
+  font-style: italic;
+}
+
+.pl-mb /* markup.bold */ {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.pl-md /* markup.deleted, meta.diff.header.from-file */ {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.pl-mi1 /* markup.inserted, meta.diff.header.to-file */ {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.pl-mdr /* meta.diff.range */ {
+  color: #9774cb;
+  font-weight: bold;
+}
+
+.pl-mo /* meta.output */ {
+  color: #264ec5;
+}
+</style>
 </head>
-  <body>
+<body>
     <header>
-      <div class="container">
-        <h1>CipherScruples</h1>
-        <h2>Stay Geeky - Q2lwaGVyU2NydXBsZXM=</h2>
-        <section id="downloads">
-          <a href="https://github.com/jasonadsit" class="btn">GitHub</a>
-          <a href="https://twitter.com/CipherScruples" class="btn">Twitter</a>
-          <a href="https://www.linkedin.com/in/jasonadsit" class="btn">LinkedIn</a>
-          <a href="https://plus.google.com/u/0/+JasonAdsit" class="btn">Google+</a>
-          <a href="https://www.facebook.com/CipherScruples" class="btn">Facebook</a>
-          <a href="https://jasonadsit.wordpress.com/" class="btn">Wordpress</a>
-          <a href="http://jasonadsit.blogspot.com" class="btn">Blogger</a>
-          <a href="https://medium.com/@CipherScruples" class="btn">Medium</a>
-          <a href="http://jasonadsit.tumblr.com/" class="btn">tumblr</a>
-          <a href="https://about.me/jasonadsit" class="btn">About.me</a>
-          <a href="http://vizualize.me/CipherScruples#" class="btn">Visualize.me</a>
-        </section>
-      </div>
+        <div class="container">
+            <h1>CipherScruples</h1>
+                <h2>Stay Geeky - Q2lwaGVyU2NydXBsZXM=</h2>
+            <section id="downloads">
+                <a href="https://github.com/jasonadsit" class="btn" target="_blank">GitHub</a>
+                <a href="https://twitter.com/CipherScruples" class="btn" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/jasonadsit" class="btn" target="_blank">LinkedIn</a>
+                <a href="https://plus.google.com/u/0/+JasonAdsit" class="btn" target="_blank">Google+</a>
+                <a href="https://www.facebook.com/CipherScruples" class="btn" target="_blank">Facebook</a>
+                <a href="https://jasonadsit.wordpress.com/" class="btn" target="_blank">Wordpress</a>
+                <a href="http://jasonadsit.blogspot.com" class="btn" target="_blank">Blogger</a>
+                <a href="https://medium.com/@CipherScruples" class="btn" target="_blank">Medium</a>
+                <a href="http://jasonadsit.tumblr.com/" class="btn" target="_blank">tumblr</a>
+                <a href="https://about.me/jasonadsit" class="btn" target="_blank">About.me</a>
+                <a href="http://vizualize.me/CipherScruples#" class="btn" target="_blank">Visualize.me</a>
+                <a href="https://www.researchgate.net/profile/Jason_Adsit" class="btn" target="_blank">ResearchGate</a>
+            </section>
+        </div>
     </header>
     <div class="container">
-      <section id="main_content">
-        <h1>
-<a id="jason-adsit" class="anchor" href="#jason-adsit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jason Adsit</h1>
-
-<p>I'm currently a Cyber Defense Technician working in the public sector. I do a little bit of everything when it comes to technology so I won't bore you with a laundry list. Email, call, tweet, or text me with your questions and feedback. I'm also on most social networking sites as either 'CipherScruples', 'jason.l.adsit', 'jasonadsit', or 'jadsit'. I'd love to hear from you, who ever you are. Stay geeky.</p>
-<p><a href="https://raw.githubusercontent.com/jasonadsit/cyber-braindump/master/raw-list.txt">Sites of Interest</a></p>
-
-<p><a id="resume" class="anchor" href="#resume" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="./resume.pdf">Resume</a></p>
-
-<h2>
-<a id="" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a><img src="./adsit-vcard.png" alt="vCard">
-</h2>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="./cc-by-sa-4.0.png" alt="cc-by-sa-4.0"></a>
-<p>cipherscruples@zeroid.bit</p>
-      </section>
+        <section id="main_content">
+            <h1><a id="jason-adsit" class="anchor" href="#jason-adsit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jason Adsit</h1>
+            <p>I'm currently a Cybersecurity Assessor working in the public sector. Feel free to contact me. I'm on most of the usual networks as CipherScruples.</p>
+            <p>Stay geeky.</p>
+            <p><a href="https://github.com/jasonadsit/cyber-braindump/releases/download/latest/raw-list.txt" class="btn" target="_blank">Sites of Interest</a><a id="resume" class="anchor" href="#resume" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="./resume.pdf" class="btn" target="_blank">Resume</a></p>
+            <p><img src="./adsit-vcard.png" alt="vCard"></p>
+            <p>"The critical question is not the temporal proximity of the anticipatory defensive action to the prospective armed attack, but whether a failure to act at that moment would reasonably be expected to result in the State being unable to defend itself effectively when that attack actually starts." - The Tallinn Manual</p>
+        </section>
     </div>
-
-          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-69390828-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W6F2VS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W6F2VS');</script>
-<!-- End Google Tag Manager -->
-
-  </body>
+</body>
 </html>
